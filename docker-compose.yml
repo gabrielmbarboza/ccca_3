@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  ccca:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "5000:5000"
